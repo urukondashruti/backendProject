@@ -1,0 +1,23 @@
+POST http://localhost:3002/add-movie
+Content-Type: application/json
+
+{
+    "_id":"34",
+    "name": "Kick",
+    "director": "Surender Reddy",
+    "producer": "R.R.Venkat",
+    "hero": "Ravi Teja",
+    "heroine": "Illeana"
+}
+
+###
+
+GET http://localhost:3002/get-all
+
+###
+
+GET http://localhost:3002/get-single/33
+
+###
+
+GET http://localhost:3002/get-paginated/?page=5&size=5
